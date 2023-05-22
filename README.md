@@ -26,6 +26,9 @@
 **Database**
 - [SQLite Reference](https://www.sqlite.org/docs.html)
 
+**Testing**
+- [Google Tests Reference](https://chromium.googlesource.com/external/github.com/pwnall/googletest/+/refs/tags/release-1.8.0/googletest/docs/Primer.md) -- C++
+
 ## Deployment
 _TBD_.
 
