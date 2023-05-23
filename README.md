@@ -1,7 +1,8 @@
 # GetChats
 <html>
 <p>
-  Welcome to the repository for my GetChats project. More to come!
+  Welcome to the repository for my GetChats project. For the current iteration of this project, I will use Python. </p>
+  <p> Later, I hope to implement the project in C++.
   </p>
   </html>
 
@@ -14,20 +15,25 @@
   - Import retrieved data into the new platform.
 
 **Program Flow**
-> Browser/Platform --API--> `GETCHATS` --Transform--> Storage (temporary/permanent) --Import--> New Platform
+> Platform--API--> `GETCHATS` --Transform--> Temp Storage --Import--> New Platform
 >
-> (UI <--API/DB query-- `GETCHATS`)
+> {UI <--API/DB query-- `GETCHATS`}
 
 ### Relevant Resources
-**API**
+**APIs**
   - [OpenAI Cookbook](https://github.com/openai/openai-cookbook/)
   - [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
 
 **Database**
-- [SQLite Reference](https://www.sqlite.org/docs.html)
+- Temporary
+  - [SQLite Reference](https://www.sqlite.org/docs.html)
+- Permanent
+  - [PostgreSQL Reference](https://www.postgresql.org/docs/)
 
 **Testing**
-- [Google Tests Reference](https://chromium.googlesource.com/external/github.com/pwnall/googletest/+/refs/tags/release-1.8.0/googletest/docs/Primer.md) -- C++
+- [pytest](https://docs.pytest.org/en/7.1.x/contents.html) 
+- [unittest.mock](https://docs.python.org/3/library/unittest.mock.html)
+- [coverage.py](https://pypi.org/project/coverage/)
 
 ## Deployment
 _TBD_.
