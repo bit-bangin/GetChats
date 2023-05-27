@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.info)
 logger = logging.getLogger(__name__)
 
 
-def apiTalk(api_key, query):
+def api_Talk(api_key, query):
     """
     Sends a POST request to the OpenAI API with the given query, using the provided API key for authentication. 
 
@@ -85,5 +85,5 @@ if __name__ == "__main__":
         logger.error(
             "API key not found. Set the OpenAI_API_Key environment variable.")
     else:
-        result = apiTalk(api_key, "your-query-here")
+        result = api_Talk(api_key, "your-query-here")
         print(result)
